@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.main {
+    background-image: url("lib/bg.jpg");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.glass {
+        /* background and shape settings */
+        background: rgb(92,92,92);
+        background: linear-gradient(45deg, rgba(92,92,92,1) 0%, rgba(154,154,154,1) 50%, rgba(255, 255, 255, 0.783) 100%);
+        opacity: 0.5;
+}
+.card {
+    width: 90%;
+    height: 50%;
+    border-radius: 30px;
+}
+
+.info{
+    width: 100%;
+    height: 100%;
+}
+
+.left-of-page {
+    /* background: rgb(92,92,92); */
+    width: 50%;
+    height: 100%;
+    opacity: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-of-page{
+    /* background: rgb(47, 114, 115); */
+    width: 50%;
+    height: 100%;
+    opacity: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
